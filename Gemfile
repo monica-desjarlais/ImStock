@@ -27,11 +27,17 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 
-gem 'twitter-bootstrap-rails'
+#gem 'twitter-bootstrap-rails'
+
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem 'jquery-rails'
 
 gem 'devise-bootstrap-views'
+
+gem 'rails-ujs', '~> 0.1.0'
+
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
