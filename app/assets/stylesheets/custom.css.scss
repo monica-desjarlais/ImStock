@@ -1,2 +1,13 @@
+$navbar-default-bg: #4A6670;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #F7FCFF;
+    font-size: 20px;
+}
