@@ -39,6 +39,8 @@ gem 'rails-ujs', '~> 0.1.0'
 
 gem 'bootstrap-sass', '~> 3.4.1'
 
+gem 'iex-ruby-client'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
