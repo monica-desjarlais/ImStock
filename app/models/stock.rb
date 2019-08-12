@@ -3,7 +3,7 @@ class Stock < ApplicationRecord
   has_many :users, through: :user_stocks
 
 
-  def self.find_by_ticker(ticker_symbol) 
+  def self.find_by_ticker(ticker_symbol)
     where(ticker: ticker_symbol).first
   end
 
@@ -22,4 +22,9 @@ class Stock < ApplicationRecord
   def self.strip_commas(number)
     number.gsub(",", "")
   end
+
+  def self.find_by_ticker(ticker_symbol)
+    where(ticker: ticker_symbol).first
+  end
+
 end
