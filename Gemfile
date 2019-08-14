@@ -27,6 +27,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 
+gem "font-awesome-rails"
+
 #gem 'twitter-bootstrap-rails'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
